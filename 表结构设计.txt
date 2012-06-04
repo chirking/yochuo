@@ -1,0 +1,73 @@
+user 用户表：
+	email
+	password
+	nick
+	photo_url
+	about
+
+openID 表:
+	user_id
+	source
+	type
+	openID_uid
+
+usernum 表：
+	following
+	follower
+	media
+	new_follower
+	new_comment
+	new_message
+
+
+follow 表:
+	follower
+	following
+
+
+media 表：
+	type
+	url
+	user_id
+	info
+	person
+	location_id
+	location_name
+	loc
+	status
+	notice_status
+	like_num
+	comment_num
+
+
+inbox 表:
+	user_id
+	media_id
+	media_num_id
+
+
+location 表：
+	loc
+	name
+	use_num
+
+
+comment 表:
+	media_id
+	media_user_id
+	user_id
+	content
+
+like 表：
+	media_id
+	media_user_id
+	user_id
+
+message 表：
+	send
+	receive
+	content
+
+
+
+
